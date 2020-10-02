@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <title>ListAshop</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+
+        <!--================Header Menu Area =================-->
+        <header class="header_area">
+           	<div class="top_menu row m0">
+           		<div class="container">
+					<div class="float-left">
+						<a>Hello (ADMIN NAME)!</a>
+					</div>
+					<div class="float-right">
+						<a href="index.html">Sign out</a>
+					</div>
+           		</div>
+           	</div>
+            <div class="main_menu">
+            	<nav class="navbar navbar-expand-lg navbar-light main_box">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<a class="navbar-brand logo_h" href="admin_home.html"><img src="img/logo.png" alt=""></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav ml-auto">
+                                <li class="nav-item"><a class="nav-link" href="admin_home.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="admin_manage_books.html">Manage Books</a></li>
+                                <li class="nav-item"><a class="nav-link" href="admin_home.html">Manage Users</a></li>
+                                <li class="nav-item"><a class="nav-link" href="admin_home.html">Manage Promotions</a></li>
+							</ul>
+
+						</div>
+					</div>
+            	</nav>
+            </div>
+        </header>
+        <!--================Header Menu Area =================-->
+
+        <!--================Home Banner Area =================-->
+        <section class="banner_area">
+            <div class="banner_inner d-flex align-items-center">
+				<div class="container">
+					<div class="banner_content text-center">
+						<h1>Manage Books</h1>
+						<div class="page_link">
+							<a href="admin_home.html">Home</a>
+							<a href="admin_manage_books.html">Manage Books</a>
+
+						</div>
+					</div>
+				</div>
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+
+        <!--================Category Product Area =================-->
+        <section class="cat_product_area p_120">
+        	<div class="container">
+        		<div class="row flex-row-reverse">
+
+        			<div class="col-lg-9">
+        				<div class="product_top_bar">
+        					<div class="left_dorp">
+								<select class="sorting">
+									<option value="1">Sort by Book Title</option>
+									<option value="2">Sort by Author's last name</option>
+									<option value="4">Sort by Date Added</option>
+								</select>
+								<select class="show">
+									<option value="1">Show 12</option>
+									<option value="2">Show 14</option>
+									<option value="4">Show 16</option>
+								</select>
+        					</div>
+        					<div class="right_page ml-auto">
+                                <div class = "box text-center">
+                                    <input type="text" class="form-control" id="search" placeholder="Search....">
+                                </div>
+
+								<nav class="cat_page" aria-label="Page navigation example">
+									<ul class="pagination">
+										<li class="page-item"><a class="page-link" href="#"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a></li>
+										<li class="page-item active"><a class="page-link" href="#">1</a></li>
+										<li class="page-item"><a class="page-link" href="#">2</a></li>
+										<li class="page-item"><a class="page-link" href="#">3</a></li>
+										<li class="page-item blank"><a class="page-link" href="#">...</a></li>
+										<li class="page-item"><a class="page-link" href="#">X</a></li>
+										<li class="page-item"><a class="page-link" href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
+									</ul>
+								</nav>
+        					</div>
+        				</div>
+        				<div class="latest_product_inner row">
+							<div class="col-lg-4 col-md-4 col-sm-6">
+								<div class="f_p_item">
+									<div class="f_p_img">
+                    <a href="admin_a_little_princess_desc.html">
+										<img class="img-fluid" src="img/product/feature-product/a-little-princess.jpg" alt="a-little-princess" width = "210px" height = "320px">
+                    </a>
+                    <div class="p_icon">
+
+                      <a href="admin_edit_book.html"><i class="lnr lnr-pencil"></i></a>
+											<a href="admin_delete_book.html"><i class="lnr lnr-trash"></i></a>
+
+										</div>
+									</div>
+									<a href="admin_a_little_princess_desc.html"><h4>A Little Princess</h4></a>
+									<h5>Frances Hodgson Burnett</h5>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6">
+								<div class="f_p_item">
+									<div class="f_p_img">
+										<img class="img-fluid" src="img/product/feature-product/dracula.jpg" alt="" width = "210px" height = "320px">
+										<div class="p_icon">
+                      <a href="admin_edit_book.html"><i class="lnr lnr-pencil"></i></a>
+											<a href="admin_delete_book.html"><i class="lnr lnr-trash"></i></a>
+										</div>
+									</div>
+									<a href="#"><h4>Dracula</h4></a>
+									<h5>Bram Stoker</h5>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6">
+								<div class="f_p_item">
+									<div class="f_p_img">
+										<img class="img-fluid" src="img/product/feature-product/christmas-carol.jpg" alt="" width = "210px" height = "320px">
+
+                    <div class="p_icon">
+
+                      <a href="admin_edit_book.html"><i class="lnr lnr-pencil"></i></a>
+											<a href="admin_delete_book.html"><i class="lnr lnr-trash"></i></a>
+										</div>
+									</div>
+									<a href="#"><h4>A Christmas Carol</h4></a>
+									<h5>Charles Dickens</h5>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6">
+								<div class="f_p_item">
+									<div class="f_p_img">
+										<img class="img-fluid" src="img/product/feature-product/the-39-steps.jpg" alt="" width = "210px" height = "320px">
+										<div class="p_icon">
+
+                      <a href="admin_edit_book.html"><i class="lnr lnr-pencil"></i></a>
+											<a href="admin_delete_book.html"><i class="lnr lnr-trash"></i></a>
+										</div>
+									</div>
+									<a href="#"><h4>The 39 Steps</h4></a>
+									<h5>John Buchan</h5>
+								</div>
+							</div>
+
+
+
+						</div>
+        			</div>
+        			<div class="col-lg-3">
+        				<div class="left_sidebar_area">
+        					<aside class="left_widgets cat_widgets">
+        						<div class="l_w_title">
+									<h3>Management</h3>
+								</div>
+        						<div class="widgets_inner">
+									<ul class="list">
+										<li><a href="admin_add_new_book.html">Add New Book</a> </li>
+                                        <li><a href="admin_edit_book.html">Edit Book Details</a> </li>
+                                        <li><a href="admin_delete_book.html">Delete Book</a> </li>
+
+
+									</ul>
+        						</div>
+        					</aside>
+
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Category Product Area =================-->
+
+
+
+
+
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope-min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="vendors/jquery-ui/jquery-ui.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.js"></script>
+        <script src="js/theme.js"></script>
+    </body>
+</html>
