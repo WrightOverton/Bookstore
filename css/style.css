@@ -6103,8 +6103,11 @@ h6 {
 /*--------End of Book Description------- */
 
 /*--------order history------------------------------------*/
+.one_order{
+
+}
 .my_order_history{
-  float: left;
+float: left;
   margin-left: 1em;
   padding-left: 1em;
   padding-top: 0.2em;
@@ -6246,4 +6249,5 @@ h6 {
 
 }
 /*------end of My Account Details------*/
+
 /*# sourceMappingURL=style.css.map */
