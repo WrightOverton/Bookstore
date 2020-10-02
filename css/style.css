@@ -6066,18 +6066,18 @@ h6 {
 }
 /*------------End of Admin Confirmation Page--------------- */
 
-/*------------Admin A Little Princess Description---------- */
-.admin_a_little_princess_cover{
+/*------------Admin Book Description---------- */
+.admin_book_cover{
   float: left;
   width: 20%;
 
 }
-.admin_a_little_princess_text{
+.admin_book_text{
   font-size: 150%;
   padding-left: 20em;
   padding-top: 1em;
 }
-.admin_a_little_princess_button{
+.admin_book_button{
   -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
@@ -6096,10 +6096,11 @@ h6 {
     border-radius: 5px;
 
 }
-.admin_a_little_princess_button:hover{
+.admin_book_button:hover{
   color: lightblue;
 }
-/*--------End of Admin A Little Princess Description------- */
+}
+/*--------End of Book Description------- */
 
 /*--------order history------------------------------------*/
 .my_order_history{
